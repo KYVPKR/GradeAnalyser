@@ -147,95 +147,104 @@ function analyse() {
   gil3.textContent = Number(ils3.value);
   gil4.textContent = Number(ils4.value);
 
-  cm1.textContent = Number(ms1.value) * 5;
-  cm2.textContent = Number(ms2.value) * 5;
-  cm3.textContent = Number(ms3.value) * 5;
-  cm4.textContent = Number(ms4.value) * 5;
-  cp1.textContent = Number(ps1.value) * 4;
-  cp2.textContent = Number(ps2.value) * 4;
-  cp3.textContent = Number(ps3.value) * 4;
-  cp4.textContent = Number(ps4.value) * 4;
-  cc1.textContent = Number(cs1.value) * 4;
-  cc2.textContent = Number(cs2.value) * 4;
-  cc3.textContent = Number(cs3.value) * 4;
-  cc4.textContent = Number(cs4.value) * 4;
-  ct1.textContent = Number(is1.value) * 3;
-  ct2.textContent = Number(is2.value) * 3;
-  ct3.textContent = Number(is3.value) * 3;
-  ct4.textContent = Number(is4.value) * 3;
-  ce1.textContent = Number(es1.value) * 3;
-  ce2.textContent = Number(es2.value) * 3;
-  ce3.textContent = Number(es3.value) * 3;
-  ce4.textContent = Number(es4.value) * 3;
-  ci1.textContent = Number(is1.value) * 2;
-  ci2.textContent = Number(is2.value) * 2;
-  ci3.textContent = Number(is3.value) * 2;
-  ci4.textContent = Number(is4.value) * 2;
-  cpl1.textContent = Number(pls1.value);
-  cpl2.textContent = Number(pls2.value);
-  cpl3.textContent = Number(pls3.value);
-  cpl4.textContent = Number(pls4.value);
-  ccl1.textContent = Number(cls1.value);
-  ccl2.textContent = Number(cls2.value);
-  ccl3.textContent = Number(cls3.value);
-  ccl4.textContent = Number(cls4.value);
-  cil1.textContent = Number(ils1.value);
-  cil2.textContent = Number(ils2.value);
-  cil3.textContent = Number(ils3.value);
-  cil4.textContent = Number(ils4.value);
+  cm1.textContent = (Number(ms1.value) * 5) / 10;
+  cm2.textContent = (Number(ms2.value) * 5) / 10;
+  cm3.textContent = (Number(ms3.value) * 5) / 10;
+  cm4.textContent = (Number(ms4.value) * 5) / 10;
+  cp1.textContent = (Number(ps1.value) * 4) / 10;
+  cp2.textContent = (Number(ps2.value) * 4) / 10;
+  cp3.textContent = (Number(ps3.value) * 4) / 10;
+  cp4.textContent = (Number(ps4.value) * 4) / 10;
+  cc1.textContent = (Number(cs1.value) * 4) / 10;
+  cc2.textContent = (Number(cs2.value) * 4) / 10;
+  cc3.textContent = (Number(cs3.value) * 4) / 10;
+  cc4.textContent = (Number(cs4.value) * 4) / 10;
+  ct1.textContent = (Number(is1.value) * 3) / 10;
+  ct2.textContent = (Number(is2.value) * 3) / 10;
+  ct3.textContent = (Number(is3.value) * 3) / 10;
+  ct4.textContent = (Number(is4.value) * 3) / 10;
+  ce1.textContent = (Number(es1.value) * 3) / 10;
+  ce2.textContent = (Number(es2.value) * 3) / 10;
+  ce3.textContent = (Number(es3.value) * 3) / 10;
+  ce4.textContent = (Number(es4.value) * 3) / 10;
+  ci1.textContent = (Number(is1.value) * 2) / 10;
+  ci2.textContent = (Number(is2.value) * 2) / 10;
+  ci3.textContent = (Number(is3.value) * 2) / 10;
+  ci4.textContent = (Number(is4.value) * 2) / 10;
+  cpl1.textContent = Number(pls1.value) / 10;
+  cpl2.textContent = Number(pls2.value) / 10;
+  cpl3.textContent = Number(pls3.value) / 10;
+  cpl4.textContent = Number(pls4.value) / 10;
+  ccl1.textContent = Number(cls1.value) / 10;
+  ccl2.textContent = Number(cls2.value) / 10;
+  ccl3.textContent = Number(cls3.value) / 10;
+  ccl4.textContent = Number(cls4.value) / 10;
+  cil1.textContent = Number(ils1.value) / 10;
+  cil2.textContent = Number(ils2.value) / 10;
+  cil3.textContent = Number(ils3.value) / 10;
+  cil4.textContent = Number(ils4.value) / 10;
   // gpa
   var mc =
-    (Number(ms1.value) +
+    ((Number(ms1.value) +
       Number(ms2.value) +
       Number(ms3.value) +
       Number(ms3.value)) *
-    5;
+      5) /
+    10;
 
   var pc =
-    (Number(ps1.value) +
+    ((Number(ps1.value) +
       Number(ps2.value) +
       Number(ps3.value) +
       Number(ps3.value)) *
-    4;
+      4) /
+    10;
   var cc =
-    (Number(cs1.value) +
+    ((Number(cs1.value) +
       Number(cs2.value) +
       Number(cs3.value) +
       Number(cs3.value)) *
-    4;
+      4) /
+    10;
   var tc =
-    (Number(ts1.value) +
+    ((Number(ts1.value) +
       Number(ts2.value) +
       Number(ts3.value) +
       Number(ts3.value)) *
-    3;
+      3) /
+    10;
   var ec =
-    (Number(es1.value) +
+    ((Number(es1.value) +
       Number(es2.value) +
       Number(es3.value) +
       Number(es3.value)) *
-    3;
+      3) /
+    10;
   var ic =
-    (Number(is1.value) +
+    ((Number(is1.value) +
       Number(is2.value) +
       Number(is3.value) +
       Number(is3.value)) *
-    2;
+      2) /
+    10;
   var plc =
-    Number(pls1.value) +
-    Number(pls2.value) +
-    Number(pls3.value) +
-    Number(pls3.value);
+    (Number(pls1.value) +
+      Number(pls2.value) +
+      Number(pls3.value) +
+      Number(pls3.value)) /
+    10;
   var clc =
-    Number(cls1.value) +
-    Number(cls2.value) +
-    Number(cls3.value) +
-    Number(cls3.value);
+    (Number(cls1.value) +
+      Number(cls2.value) +
+      Number(cls3.value) +
+      Number(cls3.value)) /
+    10;
   var ilc =
-    Number(ils1.value) +
-    Number(ils2.value) +
-    Number(ils3.value) +
-    Number(ils3.value);
+    (Number(ils1.value) +
+      Number(ils2.value) +
+      Number(ils3.value) +
+      Number(ils3.value)) /
+    10;
 
   document.querySelector("#cm").textContent = mc;
   document.querySelector("#cp").textContent = pc;
@@ -247,61 +256,65 @@ function analyse() {
   document.querySelector("#ccl").textContent = clc;
   document.querySelector("#cil").textContent = ilc;
 
-  document.querySelector("#gm").textContent = mc * (1 / (4 * 5));
-  document.querySelector("#gp").textContent = pc * (1 / (4 * 4));
-  document.querySelector("#gc").textContent = cc * (1 / (4 * 4));
-  document.querySelector("#gt").textContent = tc * (1 / (4 * 3));
-  document.querySelector("#ge").textContent = ec * (1 / (4 * 3));
-  document.querySelector("#gi").textContent = ic * (1 / (4 * 2));
-  document.querySelector("#gpl").textContent = plc * (1 / 4);
-  document.querySelector("#gcl").textContent = clc * (1 / 4);
-  document.querySelector("#gil").textContent = ilc * (1 / 4);
+  document.querySelector("#gm").textContent = mc * (10 / (4 * 5));
+  document.querySelector("#gp").textContent = pc * (10 / (4 * 4));
+  document.querySelector("#gc").textContent = cc * (10 / (4 * 4));
+  document.querySelector("#gt").textContent = tc * (10 / (4 * 3));
+  document.querySelector("#ge").textContent = ec * (10 / (4 * 3));
+  document.querySelector("#gi").textContent = ic * (10 / (4 * 2));
+  document.querySelector("#gpl").textContent = plc * (10 / 4);
+  document.querySelector("#gcl").textContent = clc * (10 / 4);
+  document.querySelector("#gil").textContent = ilc * (10 / 4);
 
   var gs1 =
-    Number(ms1.value) * 5 +
-    Number(ps1.value) * 4 +
-    Number(cs1.value) * 4 +
-    Number(ts1.value) * 3 +
-    Number(es1.value) * 3 +
-    Number(is1.value) * 2 +
-    Number(cls1.value) +
-    Number(ils1.value) +
-    Number(pls1.value);
+    (Number(ms1.value) * 5 +
+      Number(ps1.value) * 4 +
+      Number(cs1.value) * 4 +
+      Number(ts1.value) * 3 +
+      Number(es1.value) * 3 +
+      Number(is1.value) * 2 +
+      Number(cls1.value) +
+      Number(ils1.value) +
+      Number(pls1.value)) /
+    10;
   var gs2 =
-    Number(ms2.value) * 5 +
-    Number(ps2.value) * 4 +
-    Number(cs2.value) * 4 +
-    Number(ts2.value) * 3 +
-    Number(es2.value) * 3 +
-    Number(is2.value) * 2 +
-    Number(pls2.value) +
-    Number(cls2.value) +
-    Number(ils2.value);
+    (Number(ms2.value) * 5 +
+      Number(ps2.value) * 4 +
+      Number(cs2.value) * 4 +
+      Number(ts2.value) * 3 +
+      Number(es2.value) * 3 +
+      Number(is2.value) * 2 +
+      Number(pls2.value) +
+      Number(cls2.value) +
+      Number(ils2.value)) /
+    10;
   var gs3 =
-    Number(ms3.value) * 5 +
-    Number(ps3.value) * 4 +
-    Number(cs3.value) * 4 +
-    Number(ts3.value) * 3 +
-    Number(es3.value) * 3 +
-    Number(is3.value) * 2 +
-    Number(pls3.value) +
-    Number(cls3.value) +
-    Number(ils3.value);
+    (Number(ms3.value) * 5 +
+      Number(ps3.value) * 4 +
+      Number(cs3.value) * 4 +
+      Number(ts3.value) * 3 +
+      Number(es3.value) * 3 +
+      Number(is3.value) * 2 +
+      Number(pls3.value) +
+      Number(cls3.value) +
+      Number(ils3.value)) /
+    10;
   var gs4 =
-    Number(ms4.value) * 5 +
-    Number(ps4.value) * 4 +
-    Number(cs4.value) * 4 +
-    Number(ts4.value) * 3 +
-    Number(es4.value) * 3 +
-    Number(is4.value) * 2 +
-    Number(pls4.value) +
-    Number(cls4.value) +
-    Number(ils4.value);
+    (Number(ms4.value) * 5 +
+      Number(ps4.value) * 4 +
+      Number(cs4.value) * 4 +
+      Number(ts4.value) * 3 +
+      Number(es4.value) * 3 +
+      Number(is4.value) * 2 +
+      Number(pls4.value) +
+      Number(cls4.value) +
+      Number(ils4.value)) /
+    10;
 
-  var gss1 = String(gs1 * (1 / 24));
-  var gss2 = String(gs2 * (1 / 24));
-  var gss3 = String(gs3 * (1 / 24));
-  var gss4 = String(gs4 * (1 / 24));
+  var gss1 = String(gs1 * (10 / 24));
+  var gss2 = String(gs2 * (10 / 24));
+  var gss3 = String(gs3 * (10 / 24));
+  var gss4 = String(gs4 * (10 / 24));
 
   document.querySelector("#gred1").textContent = gss1.slice(0, 4);
   document.querySelector("#gred2").textContent = gss2.slice(0, 4);
@@ -313,7 +326,7 @@ function analyse() {
   document.querySelector("#cred3").textContent = gs3;
   document.querySelector("#cred4").textContent = gs4;
   var rome = String(
-    (gs1 * (1 / 24) + gs2 * (1 / 24) + gs3 * (1 / 24) + gs4 * (1 / 24)) / 4
+    (gs1 * (10 / 24) + gs2 * (10 / 24) + gs3 * (10 / 24) + gs4 * (10 / 24)) / 4
   );
   document.querySelector("#ogpa").textContent = rome.slice(0, 4);
 

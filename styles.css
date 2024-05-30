@@ -6,11 +6,11 @@ body {
   font-family: "poppins", sans-serif;
 }
 #sectionone {
-  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkY0TVx6cIcakwXLD-hGVodBRfTpPyPay-04n_6ZdVUOahN5nJ5M9JJucfHQbQZTOVT2pnDfle9JvgmFSr3Nk2Z3LNxNDFLXR60kVJUXNa05cs2PwmRr4_L6rsXTstesiNa6W30oliQdgM47KYWc9j2xVudytpD941-jhrZdFcAWD9JvR7qdfjpSfjcSk/s3299/IMG_20240501_225819_754.jpg);
+  background: url(IMG_20240501_225819_754.jpg);
   background-size: cover;
   height: 100vh;
-  padding: 0;
-  margin: 0%;
+  padding: 0px;
+  margin: 0px;
   background-repeat: no-repeat;
   display: flex;
   flex-flow: row-reverse;
@@ -22,7 +22,8 @@ body {
   border-radius: 6px;
   transform: translate(-100px, 50px);
   width: 600px;
-  height: 470px;
+  height: auto;
+  border: 1px solid #007bff6f;
 }
 #teelo {
   text-align: center;
@@ -59,6 +60,7 @@ body {
   padding: 10px;
   background-color: #0000009d;
   border-radius: 6px;
+  height: auto;
 }
 #intable,
 #intable > tr,
@@ -106,7 +108,7 @@ option {
   background-color: rgb(7, 192, 7);
 }
 #sectiontwo {
-  background: url(https://wallpapercave.com/wp/wp2801544.jpg);
+  background: url(uwp4257549.jpeg);
   height: 100vh;
   background-size: cover;
   display: none;
@@ -145,4 +147,80 @@ option {
 #ogpa,
 #ocredit {
   color: rgb(34, 208, 60);
+}
+footer {
+  height: 30px;
+  background-color: #000000de;
+}
+footer > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0%;
+  color: rgb(137, 131, 131);
+}
+footer > p > a {
+  text-decoration: none;
+  color: rgb(137, 131, 131);
+}
+
+@media only screen and (max-width: 500px) {
+  #sectionone {
+    background: url(imgrotate.jpg);
+    background-size: cover;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    background-position: fixed;
+  }
+  #wrap {
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    justify-content: center;
+    align-content: center;
+    transform: translate(9px, 80px);
+    height: auto;
+    padding: auto;
+    border: 1px solid #a225256f;
+  }
+  #fortable {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 440px;
+    padding-top: 10px;
+    height: auto;
+    transform: translate(-3px);
+  }
+  #intable {
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    padding: 0;
+    margin-bottom: 5px;
+    background-color: rgba(56, 56, 56, 0.438);
+  }
+  #containertwo {
+    display: flex;
+    justify-content: center;
+    transform: translate(0, 30px);
+    align-content: center;
+  }
+  #wraptwo {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #0000009d;
+    width: auto;
+    max-width: 90%;
+    border-radius: 9px;
+    padding: 20px;
+  }
+  #one,
+  #two {
+    margin: 10px;
+  }
 }
