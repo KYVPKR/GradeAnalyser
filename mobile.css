@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "poppins", sans-serif;
+}
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+}
+
+table {
+  padding: 10px;
+  margin: 5px auto 5px auto;
+  border: 2px solid brown;
+}
+#teelo {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(42, 121, 195, 0.873);
+}
+#desc {
+  text-align: center;
+}
+#sectionone {
+  background: url(imgrotate.jpg);
+  height: auto;
+  border: 2px transparent solid;
+  background-size: cover;
+}
+#buttons {
+  text-align: center;
+}
+
+#ftrt {
+  text-align: center;
+  margin: 0%;
+}
+#ftrt > a {
+  text-decoration: none;
+  color: rgba(69, 68, 68, 0.897);
+}
+footer {
+  text-align: center;
+}
+#teelo {
+  margin: 0px;
+}
+#wrap {
+  padding: 20px;
+  background-color: rgba(86, 85, 84, 0.737);
+  width: fit-content;
+  margin: auto;
+  margin-top: 50%;
+  border-radius: 6px;
+}
+#sectiontwo {
+  display: none;
+  background: linear-gradient(
+    130deg,
+    blue,
+    rgb(47, 120, 254) 25%,
+    blue,
+    violet
+  );
+  margin: 0%;
+}
+select,
+option {
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+#intable,
+#intable > tr,
+td {
+  border: 2px solid rgba(194, 194, 194, 0.778);
+  border-collapse: collapse;
+  padding: 2px;
+  color: white;
+  border-radius: 6px;
+}
+#fortable {
+  padding: 20px;
+  background-color: rgba(26, 26, 26, 0.777);
+  border-radius: 6px;
+}
+#reset {
+  border: 2px solid red;
+  text-decoration: none;
+  color: red;
+}
+#submit {
+  background-color: blue;
+  text-align: center;
+  font-size: larger;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: none;
+  color: aliceblue;
+}
+#submit:hover {
+  background-color: rgb(47, 47, 237);
+}
+#submit:active {
+  background-color: rgb(7, 192, 7);
+}
+#gpa,
+#credits {
+  color: white;
+  border: #ffffffb4;
+  border: 2px solid #ffffffb4;
+  border-collapse: collapse;
+  text-align: center;
+}
+#wraptwo {
+  padding: 20px;
+  background-color: rgba(86, 85, 84, 0.737);
+  width: fit-content;
+  margin: auto;
+
+  border-radius: 6px;
+}

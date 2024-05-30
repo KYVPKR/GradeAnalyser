@@ -1,0 +1,164 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+#sectionone {
+  background: url(IMG_20240501_225819_754.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row-reverse;
+}
+#wrap {
+  padding: 10px;
+  background-color: rgba(83, 83, 83, 0.767);
+  filter: blur(18%);
+  border-radius: 6px;
+  transform: translate(-100px, -100px);
+  width: 600px;
+  height: auto;
+  border: 1px solid #007bff6f;
+}
+#teelo {
+  text-align: center;
+  background-color: #007bff;
+  border: 0;
+  color: white;
+  padding: 3px;
+  width: 100%;
+
+  border-radius: 3px;
+}
+#desc {
+  text-align: center;
+  color: antiquewhite;
+  padding: 0%;
+}
+#intable {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  width: 87%;
+  height: 87%;
+  padding: 0;
+  margin-right: 10px auto;
+  margin-left: 10p auto;
+  margin-bottom: 5px;
+  background-color: rgba(56, 56, 56, 0.438);
+}
+#fortable {
+  padding: 10px;
+  height: 340px;
+  width: 580px;
+  padding: 10px;
+  background-color: #0000009d;
+  border-radius: 6px;
+  height: auto;
+}
+#intable,
+#intable > tr,
+td {
+  border: 2px solid rgba(194, 194, 194, 0.778);
+  border-collapse: collapse;
+  padding: 3px;
+}
+select,
+option {
+  background-color: rgba(41, 41, 41, 0.637);
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#submit {
+  width: 50%;
+  text-align: center;
+  background-color: rgb(2, 58, 141);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 18px;
+  text-decoration: none;
+}
+#reset {
+  background-color: rgb(113, 113, 113);
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  padding: 8px;
+  border: 2px solid red;
+}
+#submit:hover {
+  background-color: rgb(47, 47, 237);
+}
+#submit:active {
+  background-color: rgb(7, 192, 7);
+}
+#sectiontwo {
+  background: url(uwp4257549.jpeg);
+  height: 100vh;
+  background-size: cover;
+  display: none;
+}
+#containertwo {
+  display: flex;
+  justify-content: center;
+  transform: translate(0, 110px);
+  align-content: center;
+}
+#wraptwo {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: #0000009d;
+  width: 90%;
+  border-radius: 9px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#gpa,
+#credits {
+  color: white;
+  border: #ffffffb4;
+  border: 2px solid #ffffffb4;
+  border-collapse: collapse;
+  text-align: center;
+}
+.Ocell {
+  background-color: rgba(76, 164, 253, 0.24);
+}
+.Ocell > h1 {
+  text-align: center;
+}
+#ogpa,
+#ocredit {
+  color: rgb(34, 208, 60);
+}
+footer {
+  height: 30px;
+  background-color: #000000de;
+}
+footer > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0%;
+  color: rgb(137, 131, 131);
+}
+footer > p > a {
+  text-decoration: none;
+  color: rgb(137, 131, 131);
+}
