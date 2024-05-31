@@ -1,4 +1,4 @@
-const ms1 = document.querySelector("#ps1");
+const ms1 = document.querySelector("#ms1");
 const ms2 = document.querySelector("#ms2");
 const ms3 = document.querySelector("#ms3");
 const ms4 = document.querySelector("#ms4");
